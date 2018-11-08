@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1999EFB12194A05A009EC62C /* customTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1999EFB02194A05A009EC62C /* customTableView.swift */; };
 		39D3DB981FFD2DF400E080C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D3DB971FFD2DF400E080C2 /* AppDelegate.swift */; };
 		39D3DB9A1FFD2DF400E080C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D3DB991FFD2DF400E080C2 /* ViewController.swift */; };
 		39D3DB9D1FFD2DF400E080C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D3DB9B1FFD2DF400E080C2 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1999EFB02194A05A009EC62C /* customTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTableView.swift; sourceTree = "<group>"; };
 		39D3DB941FFD2DF400E080C2 /* Week3Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week3Assessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D3DB971FFD2DF400E080C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39D3DB991FFD2DF400E080C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				39D3DBA01FFD2DF400E080C2 /* LaunchScreen.storyboard */,
 				39D3DBA31FFD2DF400E080C2 /* Info.plist */,
 				39E14622208E41EA00541DBD /* Person.swift */,
+				1999EFB02194A05A009EC62C /* customTableView.swift */,
 			);
 			path = Week3Assessment;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				39E14623208E41EA00541DBD /* Person.swift in Sources */,
 				39D3DB9A1FFD2DF400E080C2 /* ViewController.swift in Sources */,
+				1999EFB12194A05A009EC62C /* customTableView.swift in Sources */,
 				39D3DB981FFD2DF400E080C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

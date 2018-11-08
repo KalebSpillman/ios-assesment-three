@@ -12,14 +12,19 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        tableView.delegate = (self as!  UITableViewDelegate)
+        self.tableView.dataSource = (self as! UITableViewDataSource)
+        
+        let people = Person(name: "Cameron Hurt", favoriteThing: "IDK", favoriteColor: UIColor.blue); Person(name: "Cody Dubree", favoriteThing: "UK basketball", favoriteColor: UIColor.blue); Person(name: "Kaleb Spillman", favoriteThing: "football", favoriteColor: UIColor.red)
+        
     }
+    @IBOutlet weak var tableView: UITableView!
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+     
     }
-
-
+    
 }
 
